@@ -8,10 +8,10 @@ const Navbar = () => {
               Ange.Dev
             </Link>
             <div className="self-center flex w-[415px] max-w-full items-start justify-between gap-5 my-auto max-md:justify-center">
-              <Link to="/">Acceuil</Link>
-              <Link to="/portfolio">Portfolio</Link>
-              <Link to="/apropos">A propos</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/" className="transition-all border-b-2 hover:border-b-2 hover:border-slate-900">Acceuil</Link>
+              <Link to="/portfolio" className="transition-all border-b-2 hover:border-b-2 hover:border-slate-900">Portfolio</Link>
+              <Link to="/apropos" className="transition-all border-b-2 hover:border-b-2 hover:border-slate-900">A propos</Link>
+              <Link to="/contact" className="transition-all border-b-2 hover:border-b-2 hover:border-slate-900">Contact</Link>
             </div>
             <div className="self-stretch flex flex-col w-[175px]">
             <Link to='/contact' className="justify-center items-start self-center flex w-[272px] max-w-full gap-0 md:flex sm:hidden">

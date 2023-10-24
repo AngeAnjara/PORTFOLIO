@@ -1,5 +1,7 @@
 import React from "react";
 import bu from "../../assets/burger.jpg"
+import faceclone from "../../assets/faceclone.jpg"
+import photo from "../../assets/photos3.jpg"
 import { Link } from "react-router-dom";
 const Card = () => {
     const liste = [
@@ -7,21 +9,21 @@ const Card = () => {
           id: 1,
           nom: "tasty Burger",
           desc: "une affiche",
-          photo: "",
+          photo: bu,
           lien: "/burger",
         },
         {
           id: 2,
           nom: "FaceClone",
           desc: "Une Site Clone de Facebook ",
-          photo: bu,
+          photo: faceclone,
           lien: "/faceclone",
         },
         {
           id: 3,
           nom: "Shout Studio ",
           desc: "Une Collection des Photos studios",
-          photo:"",
+          photo:photo,
           lien: "/shout",
         },
       ];

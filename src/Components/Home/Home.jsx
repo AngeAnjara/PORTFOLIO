@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Card from "../Card/Card";
 import Parcours from "../Parcours/Parcours";
 import { PageContact } from "../pageContact/PageContact";
+import Widget from "../utils/Widget";
 
 const Home = () => {
  
@@ -77,6 +78,10 @@ const Home = () => {
       <div>
         <br/>
         <Parcours/>
+
+      </div>
+      <div>
+        <Widget/>
       </div>
       <h1 className="text-black text-4xl max-w-[283px] ml-11 mt-16 max-md:ml-2.5 max-md:mt-10">
         Mes Portfolios
@@ -106,7 +111,7 @@ const Home = () => {
         sur des projets captivants. Rencontrons-nous et créons quelque chose
         d'extraordinaire ensemble !
       </p>
-      <div className="bg-stone-100 self-center flex w-[1018px] h-[444px] my-2 flex-col mt-8 rounded-3xl max-md:max-w-full">
+      <div className="bg-slate-700 self-center flex w-[1018px] h-[444px] my-2 flex-col mt-8 rounded-3xl max-md:max-w-full">
         <PageContact/>
       </div>
     </section>

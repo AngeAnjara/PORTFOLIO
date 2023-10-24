@@ -1,4 +1,5 @@
 import React from "react";
+import burger from  'https://ibb.co/GV0QM0x'
 import { Link } from "react-router-dom";
 const Card = () => {
     const liste = [
@@ -20,7 +21,7 @@ const Card = () => {
           id: 3,
           nom: "Shout Studio ",
           desc: "Une Collection des Photos studios",
-          photo: "https://ibb.co/GV0QM0x",
+          photo:burger,
           lien: "/shout",
         },
       ];

@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .buttonS {
+        --color: #353535;
+        font-family: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        width: 12em;
+        height: 3em;
+        line-height: 2.5em;
+        margin: 20px;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid var(--color);
+        transition: color .5s;
+        z-index: 1;
+        font-size: 17px;
+        border-radius: 6px;
+        font-weight: 500;
+
+        color: var(--color);
+       }
+       
+       .buttonS:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        background: var(--color);
+        height: 160px;
+        width: 200px;
+        border-radius: 50%;
+       }
+       
+       .buttonS:hover {
+        color: #fff;
+       }
+       
+       .buttonS:before {
+        top: 200%;
+        left: 100%;
+        transition: all .7s;
+       }
+       
+       .buttonS:hover:before {
+        top: -70px;
+        left: -20px;
+       }
+       
+       .buttonS:active:before {
+        background: #242424;
+        transition: background 0s;
+       }
+       .cardS {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        perspective: 1000px;
+        box-shadow: 0 0 0 5px #ffffff80;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      
+      .cardS svg {
+        width: 48px;
+        fill: #333;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      
+      .cardS:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+      }
+      
+      .cardS__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f2f2f2;
+        transform: rotateX(-90deg);
+        transform-origin: bottom;
+        transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      
+      .cardS:hover .cardS__content {
+        transform: rotateX(0deg);
+      }
+      
+      .cardS__title {
+        margin: 0;
+        font-size: 24px;
+        color: #333;
+        font-weight: 700;
+      }
+      
+      .cardS:hover svg {
+        scale: 0;
+      }
+      
+      .cardS__description {
+        margin: 10px 0 0;
+        font-size: 14px;
+        color: #777;
+        line-height: 1.4;
+      }
+      
+}

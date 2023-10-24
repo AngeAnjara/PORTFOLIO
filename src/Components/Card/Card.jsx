@@ -1,5 +1,5 @@
 import React from "react";
-import burger from  'https://images.pexels.com/photos/18401184/pexels-photo-18401184/free-photo-of-homme-animal-debout-cheval.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+import bu from "../../assets/burger.jpg"
 import { Link } from "react-router-dom";
 const Card = () => {
     const liste = [
@@ -7,21 +7,21 @@ const Card = () => {
           id: 1,
           nom: "tasty Burger",
           desc: "une affiche",
-          photo: "./src/assets/burger.jpg",
+          photo: "",
           lien: "/burger",
         },
         {
           id: 2,
           nom: "FaceClone",
           desc: "Une Site Clone de Facebook ",
-          photo: "./src/assets/burger.jpg",
+          photo: bu,
           lien: "/faceclone",
         },
         {
           id: 3,
           nom: "Shout Studio ",
           desc: "Une Collection des Photos studios",
-          photo:burger,
+          photo:"",
           lien: "/shout",
         },
       ];

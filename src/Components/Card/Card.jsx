@@ -7,10 +7,10 @@ const Card = () => {
     const liste = [
         {
           id: 1,
-          nom: "tasty Burger",
-          desc: "une affiche",
+          nom: "Tasty Burger",
+          desc: "Une Conception pour la marque TASTY BURGER",
           photo: bu,
-          lien: "/burger",
+          lien: "/tastyburger",
         },
         {
           id: 2,
@@ -21,10 +21,10 @@ const Card = () => {
         },
         {
           id: 3,
-          nom: "Shout Studio ",
+          nom: "Photo Studio ",
           desc: "Une Collection des Photos studios",
           photo:photo,
-          lien: "/shout",
+          lien: "/studio",
         },
       ];
   return (

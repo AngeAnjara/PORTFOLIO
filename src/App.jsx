@@ -6,6 +6,9 @@ import { Portfolio } from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Apropos from "./Components/Apropos/Apropos";
 import Footer from "./Components/Footer/Footer";
+import TastyBurger from "./Components/Portfolio/TastyBurger/TastyBurger";
+import Faceclone from "./Components/Portfolio/faceclone/Faceclone";
+import Studio from "./Components/Portfolio/studio/Studio";
 
 function App(props) {
   const Layout = () => {
@@ -37,6 +40,18 @@ function App(props) {
         {
           path: "/apropos",
           element: <Apropos />,
+        },
+        {
+          path: "/tastyburger",
+          element: <TastyBurger />,
+        },
+        {
+          path: "/faceclone",
+          element: <Faceclone />,
+        },
+        {
+          path: "/studio",
+          element: <Studio />,
         },
       ],
     },

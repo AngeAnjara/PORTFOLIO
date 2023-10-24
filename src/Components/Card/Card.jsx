@@ -1,5 +1,5 @@
 import React from "react";
-import burger from  'https://ibb.co/GV0QM0x'
+import burger from  'https://images.pexels.com/photos/18401184/pexels-photo-18401184/free-photo-of-homme-animal-debout-cheval.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 import { Link } from "react-router-dom";
 const Card = () => {
     const liste = [

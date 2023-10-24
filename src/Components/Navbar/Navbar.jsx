@@ -1,20 +1,7 @@
 import { Link } from "react-router-dom";
-import { MobileView, BrowserView } from "react-device-detect";
-import { useState } from "react";
-import MenuIcon from '@mui/icons-material/Menu';
-import { IconButton } from "@mui/material";
-import CloseIcon from '@mui/icons-material/Close';
 const Navbar = () => {
-  const [menu, setMenu] = useState(false)
-  const [icon, setIcon] = useState(false)
-
-  const handleClick = ()=>{
-    setMenu(!menu)
-    setIcon(!icon)
-  }
   return (
-    <>
-      
+    <>   
         <header className="self-center flex w-full max-w-[1123px]  flex-col mt-5  max-md:max-w-full">
           <nav className="self-center flex w-full max-w-[1102px]  items-center justify-between gap-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
             <Link to="/" className="flex item-center justify-content">

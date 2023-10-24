@@ -20,7 +20,7 @@ const Card = () => {
           id: 3,
           nom: "Shout Studio ",
           desc: "Une Collection des Photos studios",
-          photo: "./src/assets/photos3.jpg",
+          photo: "https://ibb.co/GV0QM0x",
           lien: "/shout",
         },
       ];

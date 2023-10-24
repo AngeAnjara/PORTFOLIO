@@ -30,7 +30,7 @@ export const PageContact = () => {
       {
         emailSend && <Alert severity="success" className='flex'>
         <AlertTitle>Success</AlertTitle>
-        Votre message a ete bien envoyee
+        Ton message a été envoyé correctement.
       </Alert>
       }
       </div>

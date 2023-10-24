@@ -36,22 +36,7 @@ const Navbar = () => {
           </nav>
         </header>
       
-      <MobileView>
-        <header className="flex items-center justify-between w-full ">
-        <div className="logo">
-          Ange.Dev
-        </div>
-        {
-          icon ? <IconButton onClick={handleClick}><CloseIcon/> </IconButton> : <IconButton onClick={handleClick}> <MenuIcon/></IconButton>
-        }
-
-        </header>
-        {
-          menu && < div className="flex items-start bg-slate-400  max-w-md w-full  h-[400px] ">
-
-          </div>
-        }
-      </MobileView>
+     
     </>
   );
 };

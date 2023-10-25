@@ -3,7 +3,7 @@ import Parcours from "../Parcours/Parcours";
 
 const Apropos = () => {
   return (
-    <div className="m-6">
+    <div className="self-center w-full max-w-[993px] h-[80vh]  max-md:max-w-full">
       <h1 className="text-black text-4xl max-w-[272px] ml-11 mt-14 max-md:ml-2.5 max-md:mt-10">
         Mon Histoire
       </h1>
@@ -31,8 +31,12 @@ const Apropos = () => {
       voyage continue, alimenté par la curiosité et la passion pour
       l'intersection créative entre l'art et la technologie.
       <br />
+      <br />
       <div>
         <Parcours/>
+      </div>
+      <div>
+        Mes Logiciels
       </div>
     </div>
   );

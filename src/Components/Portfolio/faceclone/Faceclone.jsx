@@ -15,8 +15,7 @@ const Faceclone = () => {
           <span className="mx-6"></span>Plongez dans mon portfolio où
           l'innovation visuelle et la fonctionnalité harmonieuse prennent vie.
           Parmi mes réalisations notables, je suis particulièrement fier de
-          présenter mon travail sur le site web FaceClone. En tant que créateur
-          de contenu spécialisé, j'ai conçu une plateforme numérique qui allie
+          présenter mon travail sur le site web FaceClone. J'ai conçu une plateforme numérique qui allie
           une conception responsive impeccable, un design captivant, et une
           fonctionnalité avant-gardiste. L'expérience utilisateur a été au cœur
           de mon processus de création, garantissant que le site s'adapte de

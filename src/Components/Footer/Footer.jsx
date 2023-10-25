@@ -5,7 +5,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
-
+import { Icon } from '@mui/material';
+import EmailIcon from '@mui/icons-material/Email';
+import CallIcon from '@mui/icons-material/Call';
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
@@ -19,7 +21,7 @@ function Copyright() {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
+
 const defaultTheme = createTheme();
 
 export default function Footer() {
@@ -45,7 +47,14 @@ export default function Footer() {
         >
           <Container maxWidth="sm">
             <Typography variant="body1">
-            +261 34 80 510 05
+            <Icon>
+              <CallIcon/>
+              </Icon> +261 34 80 510 05
+            </Typography>
+            <Typography variant="body1">
+            <Icon>
+              <EmailIcon/>
+              </Icon>  angeloelano2@gmail.com
             </Typography>
             <Copyright />
           </Container>

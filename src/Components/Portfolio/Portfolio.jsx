@@ -2,9 +2,9 @@ import React from "react";
 import Card from "../Card/Card";
 
 export const Portfolio = () => {
-  return ( <div className="self-center w-full max-w-[993px] h-[80vh]  max-md:max-w-full">
+  return (
+    <div className="self-center w-full max-w-[993px] min-h-[80vh]  max-md:max-w-full">
       <div>
-   
         <h1 className="text-black text-4xl max-w-[272px] ml-11 mt-14 max-md:ml-2.5 max-md:mt-10">
           Mon Portfolio
         </h1>

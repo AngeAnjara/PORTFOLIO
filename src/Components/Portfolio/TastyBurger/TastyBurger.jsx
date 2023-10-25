@@ -11,7 +11,7 @@ const TastyBurger = () => {
         <br />
         <div>
          <span className="mx-6"></span>Parmi mes réalisations marquantes, j'ai eu le privilège de travailler
-          avec la célèbre société Tasty Burger, où j'ai eu l'opportunité de
+          avec la société Tasty Burger, où j'ai eu l'opportunité de
           donner vie à leur identité visuelle. Ma contribution à la conception
           du logo de Tasty Burger a été une aventure captivante, alliant
           innovation et esthétique pour représenter au mieux l'esprit délicieux

@@ -12,7 +12,7 @@ const Navbar = () => {
               to="/"
               className="transition-all border-b-2 hover:border-b-2 hover:border-slate-900"
             >
-              Acceuil
+              Accueil
             </Link>
             <Link
               to="/portfolio"

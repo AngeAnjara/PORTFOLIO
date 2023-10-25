@@ -4,6 +4,18 @@ import Card from "../Card/Card";
 import Parcours from "../Parcours/Parcours";
 import { PageContact } from "../pageContact/PageContact";
 import Widget from "../utils/Widget";
+import Logo1 from '../../assets/logo/Figma-logo.svg'
+import Logo2 from '../../assets/logo/photoshop.png'
+import Logo3 from '../../assets/logo/illustrator.png'
+import Logo4 from '../../assets/logo/premierpro.png'
+import Logo5 from '../../assets/logo/lightroom.png'
+import Logo6 from '../../assets/logo/html.png'
+import Logo7 from '../../assets/logo/css.png'
+import Logo8 from '../../assets/logo/sass.png'
+import Logo9 from '../../assets/logo/react.png'
+import Logo10 from '../../assets/logo/tailwind.png'
+
+
 
 const Home = () => {
   return (
@@ -50,6 +62,19 @@ const Home = () => {
             >
               <div className="buttonS">Mes Portfolio</div>
             </Link>
+            <div className="flex m-6 items-center justify-center gap-6">
+       
+        <img src={Logo2} alt="" className="w-12" />
+        <img src={Logo3} alt="" className="w-12" />
+        <img src={Logo4} alt="" className="w-12" />
+        <img src={Logo5} alt="" className="w-12" />
+        <img src={Logo1} alt="" className="w-8" />
+        <img src={Logo6} alt="" className="w-12" />
+        <img src={Logo7} alt="" className="w-8" />
+        <img src={Logo8} alt="" className="w-12" />
+        <img src={Logo9} alt="" className="w-12" />
+        <img src={Logo10} alt="" className="w-12" />
+            </div>
           </div>
         </div>
       </div>

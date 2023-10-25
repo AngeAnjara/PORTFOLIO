@@ -3,7 +3,7 @@ import { PageContact } from "../pageContact/PageContact";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="self-center w-full max-w-[993px] min-h-[80vh]  max-md:max-w-full">
       <h1 className="text-black text-4xl max-w-[272px] ml-11 mt-14 max-md:ml-2.5 max-md:mt-10">
         Mon Contact
       </h1>

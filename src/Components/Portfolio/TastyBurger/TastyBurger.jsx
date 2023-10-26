@@ -1,5 +1,5 @@
 import React from "react";
-import imgTastyBurger from "../../../assets/Facebook Post.jpg"
+import imgTastyBurger from "../../../assets/facebookPost.jpg"
 const TastyBurger = () => {
   return (
     <div className="self-center w-full max-w-[993px]  max-md:max-w-full">

@@ -12,7 +12,7 @@ import Logo5 from '../../assets/logo/lightroom.png'
 import Logo6 from '../../assets/logo/html.png'
 import Logo7 from '../../assets/logo/css.png'
 import Logo8 from '../../assets/logo/sass.png'
-import Logo9 from '../../assets/logo/react.png'
+import Logo9 from '../../assets/logo/React.png'
 import Logo10 from '../../assets/logo/tailwind.png'
 
 

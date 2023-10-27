@@ -35,9 +35,7 @@ const Apropos = () => {
       <div>
         <Parcours/>
       </div>
-      <div>
-        Mes Logiciels
-      </div>
+      
     </div>
   );
 };
